@@ -1,0 +1,65 @@
+.navrow{
+    display: flex;
+   
+    align-items: center;
+    background-color: rgb(10, 10, 10);
+    padding: 2rem 1rem;
+    width: 100%;
+  
+   justify-content: space-between;
+}
+.navrow .left{
+    display: flex;
+   
+    align-items: center;
+ 
+    
+}
+.navrow .left .links{
+    margin-left: 2rem;
+}
+.navrow .left .logo img{
+    width: 90px;
+    font-size: 30px;
+
+}
+.navrow .left .links ul {
+    list-style: none;
+    display: flex;
+
+   
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navrow .left .links ul li{
+    padding: 0 0.5rem;
+    
+}
+.navrow .right{
+    display: flex;
+    align-items: center;
+  gap: 20px;
+  
+    
+}
+.navrow .right .profile-icons,
+.navrow .right img,
+.navrow .right p
+{
+    
+    display: inline-block;
+}
+@media(max-width:768px){
+    .navrow{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .right{
+        margin-top: 2rem;
+    }
+}
+
+

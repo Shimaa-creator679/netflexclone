@@ -1,0 +1,23 @@
+
+
+.footer{
+    padding: 4rem;
+}
+ul{
+    list-style: none;
+}
+.social{
+    margin-bottom: 20px;
+}
+.social ul{
+    display: flex;
+gap: 2rem;
+
+}
+.links{
+    display: flex;
+    gap: 2rem;
+}
+.links ul li {
+    padding: 10px;
+}

@@ -1,0 +1,43 @@
+.hero{
+    position: relative;
+    width: 100%;
+   
+   
+}
+.hero-caption{
+    position: absolute;
+    bottom: 0;
+}
+.banner-image{
+    width: 100%;
+    
+}
+.caption-img{
+    width: 200px;
+    margin-bottom: 30px;
+}
+.hero-caption h2{
+    max-width:700px ;
+    font-size: 17px;
+}
+.btns{
+    display: flex;
+    gap: 10px;
+    margin: 50px 0;
+
+}
+.btns .btn img{
+    width: 25px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
+    gap: 10px;
+}
+
+.morecards{
+    padding-left: 6%;
+}

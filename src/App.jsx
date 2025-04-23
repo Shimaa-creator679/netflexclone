@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import Home from './pages/home/Home'
-import Footer from './components/Footer/Footer'
+
 import { Route, Routes, useNavigate } from 'react-router-dom'
 import Login from './pages/login/login'
 import Videoplayer from './pages/videoplayer/videoplayer'

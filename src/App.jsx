@@ -7,6 +7,7 @@ import Videoplayer from './pages/videoplayer/videoplayer'
 import { onAuthStateChanged } from 'firebase/auth'
 import { auth } from './firebase'
 import { ToastContainer} from 'react-toastify';
+import { BrowserRouter } from 'react-router-dom';
 
 const App = () => {
 
@@ -29,9 +30,10 @@ const App = () => {
 
   return (
     <div>
-
+<BrowserRouter>
 <ToastContainer theme='dark' />
-      <Routes>
+
+   <Routes>
         <Route path='/' element={<Home/>}></Route>
         <Route path='/login' element={<Login/>}></Route>
         <Route path='/player/:id' element={<Videoplayer/>}></Route>
@@ -40,6 +42,8 @@ const App = () => {
 
 
       </Routes>
+</BrowserRouter>
+   
       
 
     </div>

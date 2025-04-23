@@ -4,8 +4,7 @@ import search from '../../assets/search_icon.svg'
 import bell from '../../assets/bell_icon.svg'
 import profileicon from '../../assets/profile_img.png'
 import profileimg from '../../assets/caret_icon.svg'
-import './navbar.css'
-import { Link } from 'react-router-dom'
+import './Navbar.css'
 import { logout } from '../../firebase'
 
 const Navbar = () => {

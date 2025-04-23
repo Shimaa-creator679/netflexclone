@@ -1,4 +1,4 @@
-import React, { useEffect, useImperativeHandle, useState } from "react";
+import React, { useEffect, useState } from "react";
 import backicon from "../../assets/back_arrow_icon.png";
 import "./player.css"
 import { useNavigate, useParams } from 'react-router-dom';
@@ -39,7 +39,7 @@ const Videoplayer = () => {
         title="trailer"
         allowFullScreen
         frameBorder={0}>
-        {" "}
+       
       </iframe>
       <div className="info">
         <h1>{apidata.puplished_at}</h1>

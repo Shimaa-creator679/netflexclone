@@ -6,7 +6,7 @@ import Login from './pages/login/login'
 import Videoplayer from './pages/videoplayer/videoplayer'
 import { onAuthStateChanged } from 'firebase/auth'
 import { auth } from './firebase'
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer} from 'react-toastify';
 
 const App = () => {
 
@@ -16,11 +16,11 @@ const App = () => {
 
     onAuthStateChanged(auth ,async(user)=>{
       if(user){
-        console.log("logged in")
+    
         navigate("/")
       }
       else{
-        console.log("loout")
+      
         navigate("/login")
       }
 
